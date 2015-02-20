@@ -24,6 +24,7 @@ img {
 .collapse {
     margin:0;
     padding:0;
+    color: #ffffff;
 }
 body {
     -webkit-font-smoothing:antialiased;
@@ -52,7 +53,7 @@ a { color: #2BA6CB;}
 
 p.callout {
     padding:15px;
-    background-color:#ECF8FF;
+    background-color:#246563;
     margin-bottom: 15px;
 }
 .callout a {
@@ -91,6 +92,8 @@ table.head-wrap { width: 100%;}
 
 .header.container table td.logo { padding: 15px; }
 .header.container table td.label { padding: 15px; padding-left:0px;}
+.logo {color: #ffffff;}
+
 
 
     /* -------------------------------------
@@ -241,16 +244,16 @@ ul.sidebar li a h1,ul.sidebar li a h2,ul.sidebar li a h3,ul.sidebar li a h4,ul.s
 <body bgcolor="#FFFFFF" topmargin="0" leftmargin="0" marginheight="0" marginwidth="0">
 
 <!-- HEADER -->
-<table class="head-wrap" bgcolor="#999999">
+<table class="head-wrap" bgcolor="#001312">
 	<tr>
 		<td></td>
 		<td class="header container" align="">
 
 			<!-- /content -->
 			<div class="content">
-				<table bgcolor="#999999" >
+				<table bgcolor="#001312" >
 					<tr>
-						<td><img mc:allowdesigner mc:allowtext mc:edit="header_image" style="max-width: 200px;" /></td>
+						<td><img src="ww_logo.png" /><span class="logo">Widgetware<sup>Beta</sup></td></span>
 						<td align="right"><h6 mc:allowdesigner mc:edit="tagline" class="collapse">Newsletter</h6></td>
 					</tr>
 				</table>
@@ -272,59 +275,80 @@ ul.sidebar li a h1,ul.sidebar li a h2,ul.sidebar li a h3,ul.sidebar li a h4,ul.s
 				<table>
 					<tr>
 						<td>
-
-							<h1 mc:edit="headline">Great Scott!</h1>
-							<p mc:edit="leading-text" class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+                            <img src="year-of-cms5.jpg">
+							<h1 align="center" mc:edit="headline">Creative Marketing Suite 5</h1>
+							<p mc:edit="leading-text" class="lead">As the lunar cycle of the sheep is upon us, we're proud to announce the 5th version of our software - CMS5. An easy to use real-time in-depth analytics,
+diagnostics, and search engine data dashboard.</p>
 
 							<!-- A Real Hero (and a real human being) -->
 							<p><img mc:edit="hero-image" /></p><!-- /hero -->
-							<p mc:edit="main">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							<p mc:edit="main">As we get further into beta we will continue to release better and better tools as we get feedback from YOU!  We already have a lot in the works and we can't wait for you to try it out!</p>
 						</td>
 					</tr>
 				</table>
 			</div><!-- /content -->
-
+<h3 align="center" mc:edit="headline">Some Awesome New Features of CMS5</h3>
 			<!-- content -->
 			<div class="content" mc:repeatable>
 
 				<table bgcolor="">
 					<tr>
-						<td class="small" width="20%" style="vertical-align: top; padding-right:10px;"><img mc:edit="post-thumbnail" /></td>
+						<td class="small" width="20%" style="vertical-align: top; padding-right:10px;"><img src="teamcollab.png" mc:edit="post-thumbnail" /></td>
 						<td>
-							<h4 mc:edit="post-title">Title Ipsum <small>This is a note.</small></h4>
-							<p mc:edit="post-excerpt" class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-							<a mc:edit="post-link" class="btn">Clickity Click &raquo;</a>
+							<h4 mc:edit="post-title">Team Collaboration <small>in Real Time</small></h4>
+							<p mc:edit="post-excerpt" class="">2 Team Members or 100, it’s all about working together cohesively.
+See only what matters to you and your team. You can easily adjust permissions and roles of your team on the fly.
+
+ </p>
+							
 						</td>
 					</tr>
 				</table>
 
 			</div><!-- /content -->
 
-			<div class="content"><table bgcolor="">
-				<tr>
-					<td>
-
-						<!-- Callout Panel -->
-						<p mc:edit="call-out-panel" class="callout">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt. <a href="#">Do it Now! &raquo;</a>	</p><!-- /callout panel -->
-
-					</td>
-				</tr>
-			</table></div><!-- /content -->
-
-            <div class="content" mc:repeatable>
+             <div class="content" mc:repeatable>
 
                 <table bgcolor="">
                     <tr>
-                        <td class="small" width="20%" style="vertical-align: top; padding-right:10px;"><img mc:edit="post-thumbnail" /></td>
+                        <td class="small" width="20%" style="vertical-align: top; padding-right:10px;"><img src="storytelling.png" mc:edit="post-thumbnail" /></td>
                         <td>
-                            <h4 mc:edit="post-title">Title Ipsum <small>This is a note.</small></h4>
-                            <p mc:edit="post-excerpt" class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                            <a mc:edit="post-link" class="btn">Clickity Click &raquo;</a>
+                            <h4 mc:edit="post-title">Story-Telling Reporting<small> Your site’s life is just like a story</small></h4>
+                            <p mc:edit="post-excerpt" class="">The revolutionary website story-telling that shows robust details that matter in a short time. When your ready, export your reports to PDF’s for meetings or annotate the reports in real time. </p>
+                            
                         </td>
                     </tr>
                 </table>
 
             </div><!-- /content -->
+
+			
+
+            <div class="content" mc:repeatable>
+
+                <table bgcolor="">
+                    <tr>
+                        <td class="small" width="20%" style="vertical-align: top; padding-right:10px;"><img src="whitelabel.png" mc:edit="post-thumbnail" /></td>
+                        <td>
+                            <h4 mc:edit="post-title">White-Label Ready<small> What Brands & Agencies Love </small></h4>
+                            <p mc:edit="post-excerpt" class="">Empower yourself with your own branded dashboard. Create a branded control panel, reports & invoices. Heck, we even let you set the price of our system. </p>
+                            
+                        </td>
+                    </tr>
+                </table>
+
+            </div><!-- /content -->
+
+            <div class="content"><table bgcolor="">
+                <tr>
+                    <td>
+
+                        <!-- Callout Panel -->
+                        <p align="center" mc:edit="call-out-panel" class="callout logo">To get access to your CMS5 Beta Account click the button below.  </p><!-- /callout panel -->
+<center><a href="https://widgetwareapp.com" mc:edit="post-link" class="btn">CMS 5 Beta Access &raquo;</a> </center>
+                    </td>
+                </tr>
+            </table></div><!-- /content -->
 
             <div class="content">
 				<table bgcolor="">
@@ -343,7 +367,7 @@ ul.sidebar li a h1,ul.sidebar li a h2,ul.sidebar li a h3,ul.sidebar li a h4,ul.s
 											<td mc:edit="std_social">
 
 												<h5 class="">Connect with Us:</h5>
-												<p class=""><a mc:edit="facebook" class="soc-btn fb">Facebook</a> <a mc:edit="twitter" href="#" class="soc-btn tw">Twitter</a> <a mc:edit="google-plus" href="#" class="soc-btn gp">Google+</a></p>
+												<p class=""><a href="https://www.facebook.com/WidgetWare"mc:edit="facebook" class="soc-btn fb">Facebook</a> <a mc:edit="twitter" href="https://twitter.com/widgetware" class="soc-btn tw">Twitter</a> <a mc:edit="google-plus" href="https://plus.google.com/+Widgetware/posts" class="soc-btn gp">Google+</a></p>
 
 											</td>
 										</tr>
